@@ -1,0 +1,28 @@
+{
+  "name": "appiumdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "macos:chrome": "wdio run configs/wdio.conf.js",
+    "ios:safari": "wdio run configs/ios_browser.conf.js",
+    "ios:app": "wdio run configs/ios_app.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wdio/appium-service": "^9.12.7",
+    "@wdio/globals": "^9.12.7",
+    "appium": "^2.18.0",
+    "webdriverio": "^9.12.7"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^9.12.7",
+    "@wdio/local-runner": "^9.12.7",
+    "@wdio/mocha-framework": "^9.12.6",
+    "@wdio/spec-reporter": "^9.12.6",
+    "appium-xcuitest-driver": "^9.2.4"
+  }
+}
